@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/* 共通部分
+---------------------*/
+
+html {
+ font-size: 100％;
+}
+
+body {
+ background-color: #E0E0E0; 
+ font-family: Arial, Helvetica, sans-serif;
+ line-height:0.5;
+ color: #3C3C3C
+}
+
+a {
+    text-decoration: 100％;
+  }
+
+img {
+max-width: 100％;
+}
+
+/* HEADER
+---------------------*/
+
+.page-header{ 
+  background-color: #E0E0E0;
+  height: 64px;
+}
+
+
+.logo1 {
+width: 166px;
+margin-left: 250px; 
+}
+
+.main-nav{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-right: 300px;
+  list-style: none;
+  text-decoration-line: none;
+}
+
+.main-nav li{
+  margin-top: 15px;
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color: #432;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+ color: #432; 
+ text-decoration: none;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding:0 4％
+}
+
+
+
+
+
+
+.works{
+  text-align: center;
+  font-size:28px;
+  margin-top: 80px;
+}
+
+
+.works-logo{
+  width: 300px;
+  margin-right: 500px;
+  margin-top: 40px;
+}
+
+.works p{
+  font-size: 20px;
+  margin-right: 500px;
+}
+
+
+.contact{
+  background-color: #E0E0E0;
+  text-align: center;
+  font-size:28px;
+  height: 300px;
+  margin:190px 0 0 0;
+  color: #3C3C3C;
+}
+
+.contact p{
+  font-size: 18px;
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+
+.button{
+  font-size: 13px;
+  background: #F5E9CF;
+  padding:18px 32px; 
+  margin: 200px 0 0 0;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+.button:hover{
+  background: #ABABA5;
+}
+
+.wrapper{
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+/* スクロールCSS */
+.fade-in {
+  opacity: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, transform;
+}
+
+.fade-in-up {
+  transform: translate(0, 50px);
+}
+
+.fade-in-down {
+  transform: translate(0, -50px);
+}
+
+.fade-in-left {
+  transform: translate(-50px, 0);
+}
+
+.fade-in-right {
+  transform: translate(50px, 0);
+}
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}

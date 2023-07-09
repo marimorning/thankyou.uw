@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+/* 共通部分
+---------------------*/
+
+html {
+ font-size: 100％;
+}
+
+body {
+ background-color: #E0E0E0; 
+ font-family: Arial, Helvetica, sans-serif;
+ line-height:0.5;
+ color: #3C3C3C
+}
+
+a {
+    text-decoration: 100％;
+  }
+
+img {
+max-width: 100％;
+}
+
+/* HEADER
+---------------------*/
+
+.page-header{ 
+  background-color: #E0E0E0;
+  height: 84px;
+}
+
+
+.logo1 {
+width: 166px;
+margin-left: 250px; 
+}
+
+.main-nav{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-right: 300px;
+  list-style: none;
+  text-decoration-line: none;
+}
+
+.main-nav li{
+  margin-top: 15px;
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color: #432;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+ color: #432;
+ text-decoration: none; 
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding:0 4％
+}
+
+
+.about{
+  background-color: #E0E0E0;
+  text-align: center;
+  font-size:28px;
+  font-weight: 400;
+  height: 84px;
+  margin-top: 80px;
+}
+
+
+
+.box-design3 {
+  margin: 50px 0 50px 240px;
+  padding: 20px;
+  background-color: rgba(245, 233, 207,0.50);
+  width: 400px;
+  height: 271px;
+  float: left;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.box-design3 span{
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-logo{
+  
+  width: 300px;
+  margin: 30px 0 50px 0;
+  float: left;
+}
+
+.box-design3 p{
+  font-size: 15px;
+}
+
+.about-logo2{
+  
+  width: 300px;
+  margin: 50px 0 50px 380px;
+  float: left;
+}
+
+.box-design4 {
+  margin: 80px 50px 50px 0px;
+  padding: 20px;
+  background-color: rgba(245, 233, 207,0.50);
+  width: 400px;
+  height: 170px;
+  float: left;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.box-design4 span{
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+.box-design4 p{
+  font-size: 15px;
+}
+
+.box-design5 {
+  margin: 50px 0 50px 240px;
+  padding: 20px;
+  background-color: rgba(245, 233, 207,0.50);
+  width: 400px;
+  height: 140px;
+  float: left;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.box-design5 span{
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-logo3{
+  
+  width: 300px;
+  margin: 30px 0 140px 0;
+  float: left;
+}
+
+.box-design5 p{
+  font-size: 15px;
+}
+
+
+.wrapper{
+  text-align: center;
+  margin: 0 0 50px 0;
+  clear: left;
+}
+
+
+/* スクロールCSS */
+.fade-in {
+  opacity: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, transform;
+}
+
+.fade-in-up {
+  transform: translate(0, 50px);
+}
+
+.fade-in-down {
+  transform: translate(0, -50px);
+}
+
+.fade-in-left {
+  transform: translate(-50px, 0);
+}
+
+.fade-in-right {
+  transform: translate(50px, 0);
+}
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
